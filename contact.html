@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="contact.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <head>
+        <meta char="UTF-8">
+        <meta name="viewport" content="width:device-width, initial-scale=1.0">
+        <title>About me</title>
+        <link href="na.css" rel="stylesheet">
+        <link rel="stylesheet" href="contact.css">
+        <script src="nav.js"></script>
+    </head>
+    <body>
+        <div>
+            <header>
+                    <div class="bar" id="change">
+                        <ul>
+                            <li ><a class="media" href="index.html">Home</a></li>
+                            <li><a href="aboutme.html">Details</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">Home</a></li>
+                            <div class="dropbox">
+                                <button class="icon" onclick="myFunction()">
+                                    <i class="fa fa-bars"></i>
+                                </button>
+                                <div id="dropdown" class="drop-content">
+                                    <a href="index.html">Home</a>
+                                    <a href="aboutme.html">Details</a>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+            </header>
+            <section id="new">
+                <section>
+                    <br>
+                        <p id="head">Contact us</p>
+                        <div id="error_message"></div>
+                        <div class="form-box">
+                                <form id="myform" onsubmit="return validation()">
+                                    <div class="input_field">
+                                        <label for="name">Name: </label>
+                                        <br>
+                                        <input type="text" id="name" placeholder="your name please!">
+                                    </div>
+                                    
+                                    <div class="input_field">
+                                        <label for="emails">E-mail: </label>
+                                        <br>
+                                        <input type="email" id="email" placeholder="your e-mail please!">
+                                    </div>
+                                    
+                                    <div class="input_field">
+                                        <label for="questions">Questions: </label>
+                                        <br>
+                                        <textarea id="questions" rows="4" placeholder="your questions please!"></textarea>
+                                    </div>
+                                    
+                                    
+                                    <button class="btn" onclick="bamnut()">Submit
+                                    </button>
+                                </form>
+                        </div>
+                </section>
+            </section>
+        </div>  
+    </body>
+   
